@@ -1,0 +1,73 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+ion-input.white-border {
+    --border-color: white !important;
+    --border-block-color: white !important;
+    --outline-color: white !important;
+}
+
+ion-input.white-border:focus {
+    --border-color: white !important;
+    --border-block-color: white !important;
+    --outline-color: white !important;
+}
+
+ion-input.white-border:hover {
+    --border-color: white !important;
+    --border-block-color: white !important;
+    --outline-color: white !important;
+}
+
+ion-input.white-border:focus-within {
+    --border-color: white !important;
+    --border-block-color: white !important;
+    --outline-color: white !important;
+}
+
+.white-label {
+    --color: white;
+}
+
+.white-label:focus-within {
+    --highlighted-color-focused: white;
+}
+
+.white-label::part(native) {
+    --placeholder-color: white;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.action-button:hover {
+    cursor: pointer;
+}
+
+ion-button.clear-btn {
+    --background-color: gray;
+    --color: white;
+}
+
+.bg-red {
+    background-color: red !important;
+}
+
+.bg-green {
+    background-color: green !important;
+}
+
+.bg-blue {
+    background-color: rgb(0, 132, 255) !important;
+}
+
+.action-button {
+    width: 24;
+    height: 24;
+    background-color: rgb(123, 127, 128);
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
